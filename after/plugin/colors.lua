@@ -1,8 +1,8 @@
 function ColorMyPencils(color)
   require('rose-pine').setup({
     --- @usage 'auto'|'main'|'moon'|'dawn'
-    -- variant = 'dawn',
-    variant = 'main',
+    variant = 'dawn',
+    -- variant = 'main',
   })
   color = color or "rose-pine"
   vim.cmd.colorscheme(color)

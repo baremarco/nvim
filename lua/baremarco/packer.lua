@@ -78,4 +78,7 @@ return require('packer').startup(function(use)
         "windwp/nvim-autopairs",
         config = function() require("nvim-autopairs").setup {} end
     }
+
+    -- vim-kitty - kitty config syntax highlighting for vim
+    use "fladson/vim-kitty"
 end)
